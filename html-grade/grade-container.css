@@ -1,0 +1,31 @@
+.gc-1 {
+	flex: 1;
+}
+
+.gc-2 {
+	flex: 2;
+}
+
+.gc-3 {
+	flex: 3;
+}
+
+.gc-4 {
+	flex: 4;
+}
+
+.gc-5 {
+	flex: 5;
+}
+
+@media (max-width: 992px) {
+
+	.gc-1.responsive,
+	.gc-2.responsive,
+	.gc-3.responsive,
+	.gc-4.responsive,
+	.gc-5.responsive {
+		flex: unset;
+		height: 50vh;
+	}
+}
