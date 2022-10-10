@@ -1,0 +1,17 @@
+{
+    "name": "ghost/php-auto-autoloader",
+    "description": "Easy autoloader try",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sanderson Rocha",
+            "email": "sanduba753@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Alt\\": "src/"
+        }
+    }
+}
