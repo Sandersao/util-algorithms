@@ -1,0 +1,17 @@
+{
+    "name": "sandersao/php-template-manipulator",
+    "description": "A software that aims to create a envoironment for the rapid menagment of templates",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sandersao\\PhpTemplateManipulator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sanderson Rocha",
+            "email": "sanduba753@gmail.com"
+        }
+    ],
+    "require": {}
+}
