@@ -1,2 +1,4 @@
 data-spliter/data/*
 testes/*
+*vendor*
+*node_modules*
