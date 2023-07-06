@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block progress test</title>
+</head>
+
+<body>
+    <span class="testes">
+        <span>0</span> /
+        <span>0</span> -
+        <span>0</span>
+    </span>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <script src="/script.js"></script>
+    <script>
+        const testFeedback = new FlushedFeedbackHandler(
+            new FlushedFeedbackHandlerCss(
+                '.testes',
+                '.testes>:nth-child(3)',
+                '.testes>:nth-child(1)',
+                '.testes>:nth-child(2)'
+            )
+        )
+
+        testFeedback.
+            requestProgressedData('/progress.php')
+    </script>
+</body>
+</html>
